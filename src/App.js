@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import logo from "./assets/biscoito.png";
 
 class App extends Component {
   constructor(props) {
@@ -6,7 +7,11 @@ class App extends Component {
     this.state = {};
   }
   render() {
-    return <div></div>;
+    return (
+      <div>
+        <img src={logo} alt="" className="img" alt="" />
+      </div>
+    );
   }
 }
 export default App;
